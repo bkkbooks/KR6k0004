@@ -1,0 +1,60 @@
+canonical_identifier: bkk:krp/KR6k0004/v1
+canonical_location: https://kanripo.org/bkk/KR6k0004/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 五分比丘尼戒本
+  identifiers:
+    alt_id:
+    - T22n1423
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T22/T22n1423.xml
+    old_id: T22n1423
+  edition:
+    short: bkk
+editions:
+- short: 宋
+  label: 宋
+  source_xml_id: wit1
+- short: 元
+  label: 元
+  source_xml_id: wit2
+- short: 宮
+  label: 宮
+  source_xml_id: wit3
+- short: 明
+  label: 明
+  source_xml_id: wit4
+- short: 聖
+  label: 聖
+  source_xml_id: wit5
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 麗-CB
+  label: 麗-CB
+  source_xml_id: wit6
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6k0004_000.yaml, hash: 'sha256:3d88e059a5896d241683647d84315bd672ca25b0434584f817d8936f3f1038e0'}
+  - {seq: 1, filename: KR6k0004_001.yaml, hash: 'sha256:4e03f663e864df0de6a46383eb664616521c9d16cded78a68e8b79175ea3ac6f'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6k0004_001.markers.yaml, hash: 'sha256:e4eee0db5a53b9fc26ac41635d99f2eda4247da00d14adfe41cf2e7637137daa'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6k0004_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 10391
+  label: 五分比丘尼戒本
+  type: juan
+  level: 1
+hash: sha256:27d59dfccd4ce674f7690ebf98939046a0468f0a435e3eea9dd7935ca59dcced
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
