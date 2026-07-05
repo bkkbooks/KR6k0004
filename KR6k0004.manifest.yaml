@@ -40,9 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0004_000.yaml, hash: 'sha256:3d88e059a5896d241683647d84315bd672ca25b0434584f817d8936f3f1038e0'}
-  - {seq: 1, filename: KR6k0004_001.yaml, hash: 'sha256:4e03f663e864df0de6a46383eb664616521c9d16cded78a68e8b79175ea3ac6f'}
+  - {seq: 1, filename: KR6k0004_001.yaml, hash: 'sha256:670e72d1740be5c06c38225a5d4e71ed71dc5fd50600a3e643376ebbf4b1e990'}
   markers:
-  - {seq: 1, role: markers, filename: assets/KR6k0004_001.markers.yaml, hash: 'sha256:e4eee0db5a53b9fc26ac41635d99f2eda4247da00d14adfe41cf2e7637137daa'}
+  - {seq: 0, role: markers, filename: assets/KR6k0004_000.markers.yaml, hash: 'sha256:fcd4bbc8fba03b73dcb6d37089115ffef89104da23dc1249ec5058edcfc1b9b4'}
+  - {seq: 1, role: markers, filename: assets/KR6k0004_001.markers.yaml, hash: 'sha256:7578c7ebe70947dd151d58dc9c818b8cb682ee4f60650ae43cbf7a3f34a7ca9b'}
 table_of_contents:
 - ref:
     seq: 1
@@ -54,7 +55,4 @@ table_of_contents:
   label: 五分比丘尼戒本
   type: juan
   level: 1
-hash: sha256:27d59dfccd4ce674f7690ebf98939046a0468f0a435e3eea9dd7935ca59dcced
-mappings:
-- canonical_identifier: bkk:mapping/variant-fold-v1
-  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
+hash: sha256:7216e7867e64d67fa4396be87689cffdd9eb73cff112b8233a18521bacdab651
