@@ -2,7 +2,7 @@ canonical_identifier: bkk:krp/KR6k0004/v1
 canonical_location: https://kanripo.org/bkk/KR6k0004/v1
 canonical_set:
   identifier: bkk:charset/cjk-v1
-  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+  hash: sha256:37995e65f5e6cdc8cfbc980fea50ec86663e3e7de950809f7e37f003754b3227
 metadata:
   title: 五分比丘尼戒本
   identifiers:
@@ -40,10 +40,10 @@ editions:
 assets:
   parts:
   - {seq: 0, filename: KR6k0004_000.yaml, hash: 'sha256:3d88e059a5896d241683647d84315bd672ca25b0434584f817d8936f3f1038e0'}
-  - {seq: 1, filename: KR6k0004_001.yaml, hash: 'sha256:670e72d1740be5c06c38225a5d4e71ed71dc5fd50600a3e643376ebbf4b1e990'}
+  - {seq: 1, filename: KR6k0004_001.yaml, hash: 'sha256:9395a8fdaf3ee9c98c49426e032d3366d3de295c4aef04f719fa81744fd229a6'}
   markers:
   - {seq: 0, role: markers, filename: assets/KR6k0004_000.markers.yaml, hash: 'sha256:fcd4bbc8fba03b73dcb6d37089115ffef89104da23dc1249ec5058edcfc1b9b4'}
-  - {seq: 1, role: markers, filename: assets/KR6k0004_001.markers.yaml, hash: 'sha256:7578c7ebe70947dd151d58dc9c818b8cb682ee4f60650ae43cbf7a3f34a7ca9b'}
+  - {seq: 1, role: markers, filename: assets/KR6k0004_001.markers.yaml, hash: 'sha256:91e73f71945df11980af142caecc4ef18ba57b92b0ecdce7a6b59e67732cd691'}
 table_of_contents:
 - ref:
     seq: 1
@@ -55,4 +55,7 @@ table_of_contents:
   label: 五分比丘尼戒本
   type: juan
   level: 1
-hash: sha256:7216e7867e64d67fa4396be87689cffdd9eb73cff112b8233a18521bacdab651
+hash: sha256:360177d1f9cdaa9b1ba6a31d8df56040aa3d179f76d6cfbd54550e48283c9fd8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:9bc9a4233a10ab6fe6494b31262c157187fd580f02a97cad91be81ccd48f7a20
